@@ -66,7 +66,7 @@ public class SalesforceApplication1 {
 		// Choose close date as Today
 		WebElement todayDate = driver.findElement(By.xpath("//input[@name='CloseDate']"));
 		todayDate.click();
-		todayDate.sendKeys("10/29/2022");
+		todayDate.sendKeys("11/01/2022");
 
 		// Select 'Stage' as Need Analysis
 		WebElement none = driver.findElement(By.xpath("//button[@data-value='--None--']"));
